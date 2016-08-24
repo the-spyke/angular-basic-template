@@ -93,10 +93,7 @@
             "xo-space/esnext"
         ],
         "rules": {
-            "linebreak-style": [
-                "error",
-                "windows"
-            ]
+            "linebreak-style": "off"
         }
     }
 }
