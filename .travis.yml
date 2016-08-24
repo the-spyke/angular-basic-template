@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - "node"
+    - "node"
+cache:
+    directories:
+        - node_modules
 before_install:
-  - npm install -g gulp
+    - npm install -g gulp
 script:
     - npm run build
